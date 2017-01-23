@@ -4,8 +4,6 @@ var jwt = require('jsonwebtoken');
 var secret="harrypotter";
 var nodemailer = require('nodemailer');
 var sgTransport = require('nodemailer-sendgrid-transport');
-
-
 module.exports=function(router){
 
 
